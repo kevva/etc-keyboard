@@ -1,5 +1,5 @@
 'use strict';
-var test = require('test');
+var test = require('ava');
 var etcKeyboard = require('./');
 
 test('detect keyboard layout', function (t) {

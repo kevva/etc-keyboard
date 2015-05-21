@@ -17,7 +17,7 @@ var etcKeyboard = require('etc-keyboard');
 
 etcKeyboard(function (err, layout) {
 	console.log(layout);
-	=> 'us'
+	//=> 'us'
 });
 ```
 

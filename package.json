@@ -1,0 +1,35 @@
+{
+  "name": "etc-keyboard",
+  "version": "1.0.0",
+  "description": "Detect keyboard layout on Linux",
+  "license": "MIT",
+  "repository": "kevva/etc-keyboard",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": "cli.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "detect",
+    "keyboard",
+    "layout",
+    "locale",
+    "linux"
+  ],
+  "dependencies": {
+    "meow": "^3.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  }
+}

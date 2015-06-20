@@ -8,7 +8,7 @@ meow({
 		'Usage',
 		'  $ etc-keyboard',
 		'  us'
-	].join('\n')
+	]
 });
 
 etcKeyboard(function (err, layout) {

@@ -22,19 +22,9 @@ etcKeyboard().then(layout => {
 ```
 
 
-## CLI
+## Related
 
-```
-$ npm install --global etc-keyboard
-```
-
-```
-$ etc-keyboard --help
-
-  Usage
-    $ etc-keyboard
-    us
-```
+* [etc-keyboard-cli](https://github.com/kevva/etc-keyboard-cli) - CLI for this module.
 
 
 ## License

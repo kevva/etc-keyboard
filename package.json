@@ -12,7 +12,6 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "bin": "cli.js",
   "scripts": {
     "test": "xo && ava"
   },
@@ -27,7 +26,6 @@
     "linux"
   ],
   "dependencies": {
-    "meow": "^3.3.0",
     "pify": "^2.3.0"
   },
   "devDependencies": {

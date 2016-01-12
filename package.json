@@ -14,7 +14,7 @@
   },
   "bin": "cli.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "ava"
   },
   "files": [
     "index.js"
@@ -30,6 +30,6 @@
     "meow": "^3.3.0"
   },
   "devDependencies": {
-    "ava": "^0.0.4"
+    "ava": "*"
   }
 }

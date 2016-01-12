@@ -1,12 +1,12 @@
-'use strict';
-var test = require('ava');
-var etcKeyboard = require('./');
+import test from 'ava';
+import m from './';
 
-test('detect keyboard layout', function (t) {
+test.cb('detect keyboard layout', t => {
 	t.plan(2);
 
-	etcKeyboard(function (err, keyboard) {
-		t.assert(!err, err);
-		t.assert(keyboard);
+	m((err, keyboard) => {
+		t.notOk(err);
+		t.ok(keyboard);
+		t.end();
 	});
 });

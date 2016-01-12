@@ -13,9 +13,9 @@ $ npm install --save etc-keyboard
 ## Usage
 
 ```js
-var etcKeyboard = require('etc-keyboard');
+const etcKeyboard = require('etc-keyboard');
 
-etcKeyboard(function (err, layout) {
+etcKeyboard().then(layout => {
 	console.log(layout);
 	//=> 'us'
 });
